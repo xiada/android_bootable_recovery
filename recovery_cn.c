@@ -1007,7 +1007,7 @@ main(int argc, char **argv) {
     device_ui_init(&ui_parameters);
     ui_init();
     ui_print(EXPAND(RECOVERY_VERSION)"\n");
-	ui_print("Xiaolu 编译("EXPAND(RECOVERY_BUILD_DATE)")\n");
+	ui_print("夏达编译("EXPAND(RECOVERY_BUILD_DATE)")\n");
 	__system("/sbin/postrecoveryboot.sh");
 
 //#ifdef BOARD_RECOVERY_SWIPE
